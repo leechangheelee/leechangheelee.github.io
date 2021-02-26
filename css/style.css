@@ -1,8 +1,17 @@
-html {
-    /* Prevent font scaling in landscape */
+html,body{
+	margin:0;
+	padding:0;
+	
+	/* Prevent font scaling in landscape */
     -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
     -moz-text-size-adjust: none; /*Firefox*/
     -ms-text-size-adjust: none;  /*Ie*/
     -o-text-size-adjust: none; /*old versions of Opera*/
     font-size: 3em;
 }
+.container{width:auto;height:auto;background:grey;margin:0 auto;}
+.movie{position:relative;max-width:100%;height:0;overflow: hidden;}
+.movie iframe{position:absolute;width:100%;height:100%;top: 0;left: 0;}
+.is-4by3 {padding-top: 75%;} /* 3 / 4 * 100 */
+.is-16by9 {padding-top: 56.25%;} /* 9 / 16 * 100 */
+.is-21by9 {padding-top: 42.857142857%;} /* 9 / 21 * 100 */
