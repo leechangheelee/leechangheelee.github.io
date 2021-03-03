@@ -3,7 +3,6 @@ html,body{
 	padding:0;
 	height:100%;
 	width:100%;
-	overflow:hidden;
 	
 	/* Prevent font scaling in landscape */
     -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
